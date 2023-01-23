@@ -25,6 +25,18 @@ Cabe notar que las principales desventajas de esta arquitectura es la complejida
 
 ![](Galery/UberEsquemaLogicoBase.jpg)
 
+### Servicio cola de conductores
+Dato que el servicio de espera de conductores es establecido bajo alta concurrencia, existen dos parámetros de discernimiento:
+- Tiempo de espera
+- Disponibilidad
+- Rango y tiempo aceptables
+
+Son variables que sirven para establecer la prioridad y descartar el turno de los conductores. Cabe mencionar que el Tiempo de Espera es una funcionalidad basada en time-session, como JWT. De tal forma que, se establece un lapso de conexión aceptable para que el conductor entre en la cola de espera.
+
+A continuación, se establece el diagrama lógico de este microservicio.
+![](Galery/ServicioColaConductores.jpg)
+
+
 ### Lenguajes de programación
 Dado que es un sistema complejo y se compone de microservicios, cadauno de estos puede implementar un lenguaje diferente orientado a su propósito.
 No obstante, se establece los siguientes lenguajes y su servicio:
