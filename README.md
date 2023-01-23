@@ -23,7 +23,7 @@ Una arquitectura de microservicios pone cada funcionalidad (lo más minimalista 
 
 Cabe notar que las principales desventajas de esta arquitectura es la complejidad en el desarrollo, la operación y el mantenimiento.
 
-![](Galery/UberEsquema LogicoBase.jpg)
+![](Galery/UberEsquemaLogicoBase.jpg)
 
 ### Almacenamiento
 La opción correcta para un servicio con capacidad de escalabilidad y para el ahorro de presupuesto, son los servicios bajo demanda Cloud. Existen varias obciones, AWS, Google Cloud, Azure, DigitalOcean, Oracle Cloud Infrastructure, etc. En este caso, debido a la capacidad de perzonalización de los servicios, el mejor costo y a la estabilidad de la plataforma, se opta por AWS (Amazon Web Services).
