@@ -27,4 +27,10 @@ Amazon S3 ofrece una variedad de clases de almacenamiento entre las cuales puede
 
 Las clases de almacenamiento de S3 incluyen S3 Intelligent-Tiering para el ahorro automático de costos destinado a los datos con patrones de acceso desconocidos o cambiantes; S3 Standard para los datos a los que accede con frecuencia; S3 Standard-Infrequent Access (S3 Standard-IA) y S3 One Zone-Infrequent Access (S3 One Zone-IA) para los datos a los que accede con menor frecuencia; S3 Glacier Instant Retrieval para los datos de archivo que requieren acceso inmediato; S3 Glacier Flexible Retrieval (antes S3 Glacier) para los datos de largo plazo a los que se accede de forma inusual y que no requieren acceso inmediato; y Amazon S3 Glacier Deep Archive (S3 Glacier Deep Archive) para el archivo a largo plazo y la preservación digital con recuperación en horas al costo más bajo de almacenamiento en la nube. 
 
+Para seleccionar la mejor opción se considera lo siguiente:
+1. Los servicios tienen una alta frecuencia de consulta
+2. La disponibilidad de los datos debe ser amplia y comn una baja latencia
+3. Los costos deben ser optimizados de acuerdo a la demanda, por lo cual se debe optar por una opción con predict o basada en auto-optimization
 
+Adicionalmente, se propone la siguiente imagen sobre los servicios de almacenamiento de AWS
+![](Galery/OpcionesStorageAWS.png)
