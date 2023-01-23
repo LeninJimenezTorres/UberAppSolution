@@ -17,8 +17,13 @@ cancelación del servicio y dejarlo disponible para recibir nuevos servicios
 la app de usuario
 
 ## Esquema lógico
-En la estructuración de la infraestructura de software, se parte de un esquema monolítico base para formar una arquitectura orientada a servicios (SOA). Por lo tanto, se establece una arquitectura basada en microservicios.
+En la estructuración de la infraestructura de software, si bien para una app con iguales características puede emplearse un esquema monolítico, se tienen problemas en el crecimiento de la misma. Por lo tanto, lo más idóneo es establecer una arquitectura orientada a servicios (SOA).
+
 Una arquitectura de microservicios pone cada funcionalidad (lo más minimalista posible) en un servicio separado, y la forma que tiene de crecer es distribuyendo estos servicios a través de los servidores, replicando de acuerdo a las necesidades del negocio.
+
+Cabe notar que las principales desventajas de esta arquitectura es la complejidad en el desarrollo, la operación y el mantenimiento.
+
+![](Galery/UberEsquema LogicoBase.jpg)
 
 ### Almacenamiento
 La opción correcta para un servicio con capacidad de escalabilidad y para el ahorro de presupuesto, son los servicios bajo demanda Cloud. Existen varias obciones, AWS, Google Cloud, Azure, DigitalOcean, Oracle Cloud Infrastructure, etc. En este caso, debido a la capacidad de perzonalización de los servicios, el mejor costo y a la estabilidad de la plataforma, se opta por AWS (Amazon Web Services).
