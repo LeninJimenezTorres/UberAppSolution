@@ -60,6 +60,11 @@ No obstante, se establece los siguientes lenguajes y su servicio:
 - Javascript - Node.JS : despliegue de APIs, consulta de las mismas y backend asíncrono de microservicios.
 - Android & IOS: desarrollo de mobile APP en lenguajes nativos para una mayor velocidad, en caso de que el equipo de desarrollo no tenga la experticie, se emplearía un framework como Flutter
 
+### Servicio de pagos cliente
+Existen diversas plataformas que presentan APIs de gestion de pagos por tarjetas bancarias. Para el efecto se considera a Stripe por su cobertura local, su historial sin problemas.
+
+Nota: https://stripe.com/
+
 ### Almacenamiento
 La opción correcta para un servicio con capacidad de escalabilidad y para el ahorro de presupuesto, son los servicios bajo demanda Cloud. Existen varias obciones, AWS, Google Cloud, Azure, DigitalOcean, Oracle Cloud Infrastructure, etc. En este caso, debido a la capacidad de perzonalización de los servicios, el mejor costo y a la estabilidad de la plataforma, se opta por AWS (Amazon Web Services).
 
