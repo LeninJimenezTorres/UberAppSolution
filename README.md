@@ -25,6 +25,22 @@ Cabe notar que las principales desventajas de esta arquitectura es la complejida
 
 ![](Galery/UberEsquemaLogicoBase.jpg)
 
+### Servicio geolocalización
+Existen diversas plataformas que presentan APIs de geolocalización. No obstante, Google es la proveedora de la API más robusta y de la que el mismo uber obtiene su microservicio.
+Las API de Google Maps Platform esta presente para:
+- Android
+- IOS
+- Web
+- Servicio web
+
+Para el efecto se seleciona en base al desarrollo, pero la que se emplearán son:
+- API de Distance Matrix: Tiempo de viaje y distancia para varios destinos.
+- API de Roads: Función para mantenerse en la ruta a fin de rastrear de forma precisa las rutas de navegación de GPS.
+- API de Directions: Instrucciones sobre cómo llegar entre varias ubicaciones.
+
+Nota: https://developers.google.com/maps/apis-by-platform?hl=es-419
+
+
 ### Servicio cola de conductores
 Dato que el servicio de espera de conductores es establecido bajo alta concurrencia, existen dos parámetros de discernimiento:
 - Tiempo de espera
